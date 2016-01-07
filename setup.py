@@ -29,7 +29,6 @@ setup(
     version='0.23.5',
     packages=['soundscrape'],
     install_requires=required,
-    extras_require={ ':python_version < "3.0"': [ 'wsgiref>=0.1.2', ], },    
     include_package_data=True,
     license='MIT License',
     description='Scrape an artist from SoundCloud',
